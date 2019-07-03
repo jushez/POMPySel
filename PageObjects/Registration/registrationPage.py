@@ -12,5 +12,5 @@ class RegistrationPage:
         self.driver.find_element_by_name(self.password_name).send_keys("thepassword")
 
     def click_NextToRegister(self):
-        self.driver.find_element_by_xpath(self.register_next_btn).click()
+        self.driver.find_element_by_xpath(self.register_next_btn_xpath).click()
 
